@@ -1,6 +1,4 @@
-#!/bin/bash
 
-cat << 'EOF' > README.md
 # 📦 Real-Time Inventory Management System
 
 This project simulates a real-time inventory tracking system using **Apache Kafka**, **PostgreSQL**, **Streamlit**, and **Grafana**.
@@ -36,7 +34,6 @@ All data is committed in **PostgreSQL** for analytics or dashboards.
 
 ## 🐳 Docker Setup
 
-```bash
 docker-compose up --build
 
 project/
